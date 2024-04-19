@@ -30,7 +30,6 @@ button {
     flex-wrap: wrap;
     margin: 10px auto;
     padding: 30px;
-    /* border: 30px #404040 solid; */
     border-radius: 50px;
     flex-direction: column;
     justify-content: space-evenly;
@@ -57,6 +56,10 @@ button {
 
 .num-buttons .operation-buttons {
     color: #abc4ff;
+}
+
+#clear {
+    margin-left: auto;
 }
 
 
