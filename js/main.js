@@ -1,7 +1,7 @@
 let aNumber;
 let bNumber;
 let operator;
-
+let displayValue = "";
 
 function operate(num1, num2, operator) {
     switch (operator) {

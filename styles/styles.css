@@ -1,41 +1,41 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: #0b0c10;
+    background-color: #abc4ff;
+    
 }
 
 h1 {
     margin: auto;
     width: 50%;
     text-align: center;
-    padding: 50px;
-    color: #66fcf1;
-    font-size: 80px;
+    padding: 20px;
+    color: #282828;
 }
 
 button {
     position: relative;
-    background-color: #45a29e;
-    color: #0b0c10;
+    background-color: transparent;
+    color: #abc4ff;
+    border: 0;
     font-size: larger;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-button:hover{
-    background-color: #66fcf1;
-}
 
 .calculator {
     display: flex;
-    width: 500px;
+    width: 400px;
     height: 500px;
     flex-wrap: wrap;
     margin: 10px auto;
-    border: 10px #66fcf1 solid;
-    border-radius: 10px;
+    padding: 30px;
+    /* border: 30px #404040 solid; */
+    border-radius: 50px;
     flex-direction: column;
-    justify-content: space-between;
-    background-color: #66fcf1;
+    justify-content: space-evenly;
+    background-image: linear-gradient(#404040, #282828);
+    box-shadow: 10px 10px 6px #282828;
 }
 
 
@@ -44,37 +44,36 @@ button:hover{
     display: flex;
     flex-wrap: wrap;
     align-content: left;
+    
 }
 
 .num-buttons > button {
     flex: 1;
-    min-width: 250px;
+    flex-grow: 0;
+    min-width: 133px;
     min-height: 50px;
-    
+    color: gray;
 }
 
-.operations-buttons {
-    display: flex;
-    flex-wrap: wrap;
-    align-content: left;
+.num-buttons .operation-buttons {
+    color: #abc4ff;
 }
 
-.operations-buttons > button {
-    flex: 1;
-    min-width: 250px;
-    min-height: 50px;
-}
 
 .show-state > h3 {
-    text-align: center;
-    color: white;
+    text-align: right;
+    padding: 5px;
+    padding-right: 25px;
+    color: black;
     font-size: 25px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .show-state{
-    background-color: #45a29e;
-    border: 5px #0b0c10 solid;
+    background-color: white;
+    color: #0b0c10;
+    border-radius: 100px;
     overflow: hidden;
 }
+
 
