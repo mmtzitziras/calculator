@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #0b0c10;
+}
+
+h1 {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    padding: 50px;
+    color: #66fcf1;
+    font-size: 80px;
+}
+
+button {
+    position: relative;
+    background-color: #45a29e;
+    color: #0b0c10;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+button:hover{
+    background-color: #66fcf1;
+}
+
+.calculator {
+    display: flex;
+    width: 500px;
+    height: 500px;
+    flex-wrap: wrap;
+    margin: 10px auto;
+    border: 10px #66fcf1 solid;
+    border-radius: 10px;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #66fcf1;
+}
+
+
+
+.num-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: left;
+}
+
+.num-buttons > button {
+    flex: 1;
+    min-width: 250px;
+    min-height: 50px;
+    
+}
+
+.operations-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: left;
+}
+
+.operations-buttons > button {
+    flex: 1;
+    min-width: 250px;
+    min-height: 50px;
+}
+
+.show-state > h3 {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.show-state{
+    background-color: #45a29e;
+    border: 5px #0b0c10 solid;
+    overflow: hidden;
+}
+
