@@ -63,20 +63,23 @@ button {
 }
 
 
-.show-state > h3 {
-    text-align: right;
-    padding: 5px;
-    padding-right: 25px;
-    color: black;
-    font-size: 25px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
 
 .show-state{
     background-color: white;
     color: #0b0c10;
     border-radius: 100px;
     overflow: hidden;
+    text-align: right;
+    padding: 5px;
+    padding-right: 25px;
+    color: black;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    min-height: 70px;
+    max-height: 70px;
+    text-align: right;
+    align-content: center;
+    max-width: 400px;
 }
 
 
